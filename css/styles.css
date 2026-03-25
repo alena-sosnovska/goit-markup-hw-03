@@ -262,6 +262,11 @@ img {
   width: calc((100% - 24px * 2) / 3);
 }
 
+.portfolio-item-card {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-item-title {
   padding-top: 32px;
   margin-bottom: 8px;
