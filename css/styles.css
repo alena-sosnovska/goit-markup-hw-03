@@ -85,8 +85,7 @@ img {
 /* --------------header------------ */
 
 .header {
-  height: 72px;
-  padding-block: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -118,6 +117,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding-block: 24px;
 }
 
 .header-nav-link:hover,
@@ -151,8 +152,7 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  height: 600px;
-  padding-top: 188px;
+  padding-block: 188px;
 }
 
 .hero-title {
@@ -192,7 +192,6 @@ img {
 /* ----------------features------------ */
 
 .features {
-  height: 344px;
   padding-block: 120px;
 }
 
@@ -205,11 +204,14 @@ img {
   width: calc((100% - 24px * 3) / 4);
 }
 
+.features-item-title {
+  margin-bottom: 8px;
+}
+
 /* ---------------team------------- */
 
 .team {
   background-color: #f4f4fd;
-  height: 732px;
   padding-block: 120px;
 }
 
@@ -225,16 +227,25 @@ img {
 
 .team-item {
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+
+.team-item-card {
+  padding-block: 32px;
+}
+
 .team-item-title {
   text-align: center;
-  padding-top: 32px;
+
   margin-bottom: 8px;
 }
 
 .team-item-text {
   text-align: center;
-  padding-bottom: 32px;
 }
 
 .team-item {
@@ -265,15 +276,14 @@ img {
 .portfolio-item-card {
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .portfolio-item-title {
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
 .portfolio-item-text {
-  padding-bottom: 32px;
 }
 
 /* --------------footer------------- */
