@@ -88,7 +88,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header .container {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -235,7 +235,7 @@ img {
 }
 
 .team-item-card {
-  padding-block: 32px;
+  padding: 32px 16px;
 }
 
 .team-item-title {
